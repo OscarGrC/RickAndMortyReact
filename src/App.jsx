@@ -4,8 +4,8 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Episodes from './pages/Episodes/Episodes';
 import EpisodesDetails from './pages/EpisodesDetails/EpisodesDetails';
-import Characters from './pages/Characters/Characters';
-import CharacterDetails from './pages/CharactersDetails';
+import Characters from './pages/characters/characters'
+import CharacterDetails from './pages/CharactersDetails/CharactersDetails';
 import './App.css'
 
 function App() {
