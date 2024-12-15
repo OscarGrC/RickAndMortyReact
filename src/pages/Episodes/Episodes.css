@@ -1,0 +1,57 @@
+/* Contenedor principal */
+.episodes {
+    padding-top: 70px;
+    font-family: Arial, sans-serif;
+}
+
+.episodes__title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: black;
+}
+
+.episodes__button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.episodes__button:hover {
+    background-color: #0056b3;
+}
+
+/* Tabla */
+.episodes__table {
+    border-collapse: collapse;
+}
+
+.episodes__table th,
+.episodes__table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.episodes__table th {
+    background-color: #1364b9;
+    color: white;
+    font-weight: bold;
+}
+
+.episodes__table tr {
+    background-color: #ffffff;
+}
+
+.episodes__table tr:hover {
+    background-color: green;
+    cursor: pointer;
+
+}

@@ -1,0 +1,34 @@
+.characters {
+    padding-top: 70px;
+    font-family: Arial, sans-serif;
+}
+
+.characters__title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: black;
+}
+
+
+.characters__characters {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.characters__button {
+    margin: 8px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.characters__button:hover {
+    background-color: #0056b3;
+}
